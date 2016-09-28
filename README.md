@@ -30,6 +30,7 @@ It functions like a typical Tetris game, in that a piece (tetromino) gradually f
 ## Scoring
 - Complete 1 Line: 1200 points
 - Bomb Piece: 1000 points
+
 Note: The High Score gets saved within 1 run of the program, with multiple re-plays using the same window. If you quit out and re-run the application, the high score does not get saved. As your score increases, the pieces will move down incrementally faster to make the game more difficult.
 
 ## Setup
