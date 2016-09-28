@@ -1,7 +1,38 @@
-# tetris-game
-This is a multi-threaded Tetris game in Java that uses Swing to create the Graphical User Interface. It uses the model-view-controller (MVC) pattern to divide the three parts of the application. I developed it for my final project in my Java Programming course at the University of Chicago in the Masters Program in Computer Science. This was my first major project in the program.
+# Tetris Game
+This is a multi-threaded Tetris game in Java that uses Swing to create the Graphical User Interface.  I developed it for my final project in my Java Programming course at the University of Chicago in the Masters Program in Computer Science. This was my first major project in the program.
 
-It utilizes a game engine originally used to power the game Asteroids. It functions like a typical Tetris game, in that a piece (tetromino) gradually falls down from the top of the screen (one at a time) and the players control the position in which it falls. The goal is to fill up complete lines in the board's grid. You score 1200 points each time you fill up 1 line, at which time the line will clear from the grid. There are several different shaped pieces: a square piece, J-shaped piece, a long piece, an L-shaped piece, a plus-sign shaped piece, an S-shaped piece, a T-shaped piece, a Z-shaped piece, and a bomb piece. The bomb piece only comes up once in a while, and it will have a bomb sound effect when it hits and so then clears the board. This scores you 1000 points. If you fill the board to the top, the game ends. There is also a square at the top right corner that tells you what the next piece will be. The high score gets saved within one instance of the game (replaying as many times as you wish within 1 run of the program). As your score increases, the pieces will move down incrementally faster to make the game more difficult.
+## About
+- Uses the model-view-controller (MVC) pattern to divide the three parts of the application.
+- Utilizes a base code game engine originally used to power the game Asteroids, including a Movable interface, controller, game frame and panel etc.
+- Applies concepts such as object-oriented design, polymorphism, inheritance and encapsulation.
 
-Keyboard controls are as follows:
-M = Toggle Sound (Mute); S = Start; P = Pause; Space Bar = Rotate the current piece; Arrow Keys = Move the current piece left, right or down
+## How To Play 
+It functions like a typical Tetris game, in that a piece (tetromino) gradually falls down from the top of the screen (one at a time) and the player controls the position in which it falls. Your goal is to fill up complete lines in the board's grid. You score points each time you fill up 1 line, at which time the line will clear from the grid. There is a bonus "bomb" piece that clears the board.
+
+## Pieces/Tetrominoes
+- Square Piece
+- J-Shaped Piece
+- Long Piece
+- L-Shaped Piece
+- Plus-Sign-Shaped Piece
+- S-Shaped Piece
+- T-Shaped Piece
+- Z-Shaped Piece
+- Bomb Piece (only comes up every so often: clears the board and has a bomb sound effect)
+
+## Keyboard Controls
+- S = Start
+- P = Pause
+- M = Toggle Sound (Mute)
+- Space Bar = Rotates current piece
+- Arrow Keys (Left, Right, Down) = Moves current piece left, right or more quickly down the screen
+
+## Scoring
+- Complete 1 Line: 1200 points
+- Bomb Piece: 1000 points
+Note: The High Score gets saved within 1 run of the program, with multiple re-plays using the same window. If you quit out and re-run the application, the high score does not get saved. As your score increases, the pieces will move down incrementally faster to make the game more difficult.
+
+## Setup
+1. Import the code into an IDE (I used IntelliJ).
+2. Open the controller and run Game.java.
+3. Follow instructions on the screen that comes up.
